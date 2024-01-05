@@ -3,7 +3,7 @@ const { errorHandler } = require("./middlewares/errorMiddleware");
 require("colors");
 const products = require("./data/products");
 const dotenv = require("dotenv");
-const connectDb = require("./config/config");
+const connectDb = require("./Config/config");
 const productRoutes = require("./routes/productsRoute");
 const usersRoutes = require("./routes/UsersRoute");
 const orderRoutes = require("./routes/orderRoute");

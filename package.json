@@ -1,5 +1,5 @@
 {
-  "name": "shopping-app",
+  "name": "Brisk",
   "version": "1.0.0",
   "description": "mern app",
   "main": "server.js",
@@ -11,7 +11,7 @@
     "data:import": "node backend/seeder.js",
     "data:destroy": "node backend/seeder.js -d"
   },
-  "author": "techinfoyt",
+  "author": "frederickebeiyamba",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
